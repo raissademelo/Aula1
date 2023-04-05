@@ -1,0 +1,77 @@
+@font-face {
+    font-family:Opensanscb;
+    src: url(../fontes/OpenSans-CondBold.woff) format(woff);
+}
+
+@font-face {
+    font-family:Opensanscl;
+    src: url(../fontes/OpenSans-CondLight.woff) format(woff);}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif; color: rgb(0, 0, 0);}
+
+
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1 {
+    color: #ffffff;
+    
+}
+
+h2 {
+    color: #ffffff;
+}
+
+.foto { position: absolute;
+        right: 200px;
+        top: 90px;
+
+}
+
+.pagina1 {
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+
+}
+.pagina1 h3 {
+    font-size: medium;
+    padding: 70px;
+
+}
+
+nav{
+    background-color: #0d00fc;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 100;
+    position: fixed;
+    text-align: center;
+
+}
+
+
+
+.itens a{
+    color: black ;
+    display: inline;
+    justify-content: space-between;
+    padding: 16px;
+    font-size: x-large;
+    
+}
+
+.icone {
+    position: absolute;
+    margin-left: -170px;
+    width: 50px;
+    margin-top: -80px;
+}

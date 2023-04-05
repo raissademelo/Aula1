@@ -1,0 +1,170 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    }
+
+main{
+    padding-bottom: 150px;
+    background: rgb(41,171,226);
+    background: linear-gradient(90deg, rgba(41,171,226,1) 0%, rgba(43,96,169,1) 100%);
+
+    
+}
+
+
+.container1 img {
+    padding-top: 100px;
+    max-width:800px;
+    max-height:700px;
+    width: auto;
+    height: auto;
+    margin-left: 500px;
+}
+
+.stop {
+    color: white;
+    margin-left: 430px;
+
+}
+
+.container2 img {
+    position: absolute;
+    padding-top: -100px;
+    max-width: 500px;
+    max-height: 450px;
+    width: auto;
+    height: auto;
+    margin-left: 800px;
+}
+
+.container img {
+    position: absolute;
+    padding-top: 700px;
+    max-width: 900px;
+    max-height: 800px;
+    width: auto;
+    height: auto;
+    margin-left: 0px;
+}
+
+.container4 img {
+    position: absolute;
+    padding-top: -100px;
+    max-width: 850px;
+    max-height: 900px;
+    width: auto;
+    height: auto;
+    margin-left: 0px;
+}
+
+.slider {
+    display: block;
+    height: 800px;
+    width: 700px;
+    margin: auto;
+    margin-top: 800px;
+    position: relative;
+    margin-left: 1000px;  
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+.slider li:nth-child(4) label {
+    left: 100px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+
+
+nav img {
+    width: 70px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+nav div {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 220px;
+    font-size: medium;
+    padding-top: 0px;
+    padding-bottom: 35px;
+    right: 440px;
+}
+
+
+a{
+  color: #1172BC;
+  text-decoration: none;
+}
+
+footer a {
+        color: black;
+        font-size: medium;
+        margin-top: -50px;
+        margin-left: 330px;
+        padding-top: 0px;
+        padding-bottom: 35px;
+    }
+
+
+.contato {
+    color: black;
+    font-size: large;
+    margin-left: 50px;
+
+}
+
+footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.bot a{
+    margin-left: 50px;
+}
+

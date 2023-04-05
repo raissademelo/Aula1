@@ -1,0 +1,117 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    }
+
+main{
+    padding-bottom: 550px;
+    background: rgb(41,171,226);
+    background: linear-gradient(90deg, rgba(41,171,226,1) 0%, rgba(43,96,169,1) 100%);
+
+    
+}
+
+nav img {
+    width: 70px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+nav div {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 220px;
+    font-size: medium;
+    padding-top: 0px;
+    padding-bottom: 35px;
+    right: 440px;
+}
+
+.perfil {
+    width: 380px;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.SOBREMIM {
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    position: absolute;
+    margin-top:-400px;
+    left: 795px;
+    right: 190px;
+    margin-right: 0px;
+
+}
+
+.texto1 {
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    position: absolute;
+    margin-top:-342px;
+    left: 795px;
+    right: 128px;
+    margin-right: 0px;
+  
+}
+
+.raiologo {
+    position: absolute;
+     width: 380px;
+     height: 400px;
+    margin-right: 100px;
+    margin-top: 600px;
+    left: 180px;
+   border-radius: 300px;
+    
+}
+
+.MARCAPESSOAL {
+    color: white;
+    font-size: xx-large;
+    position: absolute;
+    margin-top: 140px;
+    left: 795px;
+    right: 190px;
+    margin-right: 0px;
+
+}
+
+.texto2 {
+    color: white;
+    font-size: medium;
+    position: absolute;
+    margin-top: 200px;
+    left: 795px;
+    right: 100px;
+    margin-right: 0px;
+}
+
+a{
+  color: #1172BC;
+  text-decoration: none;
+}
+
+footer a {
+    color: black;
+    font-size: medium;
+    margin-top: -50px;
+    margin-left: 330px;
+    padding-top: 0px;
+    padding-bottom: 35px;
+}
+
+.contato {
+    color: black;
+    font-size: large;
+    margin-left: 50px;
+
+}
+
+footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.bot a{
+    margin-left: 50px;
+}

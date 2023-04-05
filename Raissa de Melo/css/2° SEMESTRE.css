@@ -1,0 +1,228 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    }
+
+main{
+    margin-top: -17px;
+    padding-bottom: 150px;
+    background: rgb(41,171,226);
+    background: linear-gradient(90deg, rgba(41,171,226,1) 0%, rgba(43,96,169,1) 100%);
+
+    
+}
+
+.embalagens {
+    position: absolute;
+    color: white;
+    font-size: xx-large;
+    margin-top: 300px;
+    margin-left: 640px;
+
+}
+
+.container5{
+    position: absolute;
+    padding-top: 30px;
+    max-width: 750px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    margin-left: 200px;
+}
+
+.petit{
+    color: white;
+    padding-top: 700px;
+    margin-left: 90px;
+    margin-right: 950px;
+    
+}
+
+.container6 img {
+    position: absolute;
+    padding-top: 0px;
+    max-width: 400px;
+    max-height: 600px;
+    width: 500px;
+    height: 400x;
+    margin-left: 900px;
+    margin-top: -685px;
+}
+    .paleta {
+        color: white;
+        padding-top: 535px;
+        margin-left: 1050px;
+        margin-right: 90px;
+    }
+
+    .editorial {
+        position: absolute;
+        color: white;
+        font-size: xx-large;
+        margin-top: -380px;
+        margin-left: 670px;
+    
+    }
+.container7 img {
+    position: absolute;
+    padding-top: 0px;
+    max-width: 400px;
+    max-height: 600px;
+    width: 500px;
+    height: 400x;
+    margin-left: 900px;
+    margin-top: -600px;
+}
+
+.livro {
+    color: white;
+
+}
+
+
+.container8 img {
+    position: absolute;
+    padding-top: 0px;
+    max-width: 400px;
+    max-height: 600px;
+    width: 500px;
+    height: 400x;
+    margin-left: 200px;
+    margin-top: -600px;
+}
+
+.revista {
+    color: white;
+}
+
+
+
+.slider {
+    display: block;
+    width: 600px;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    margin-left: 160px;
+    
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+.slider li:nth-child(4) label {
+    left: 100px;
+}
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.manuel {
+    color: white;
+    position: absolute;
+     font-size: xx-large;
+    margin-top: -450px;
+    margin-left: 800px;
+    margin-right: 300px;
+
+}
+
+.manual {
+    color: white;
+    position: absolute;
+     font-size: medium;
+    margin-top: -370px;
+    margin-left: 800px;
+    margin-right: 300px;
+}
+
+
+nav img {
+    width: 70px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+nav div {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 220px;
+    font-size: medium;
+    padding-top: 0px;
+    padding-bottom: 35px;
+    right: 440px;
+}
+
+a{
+  color: #1172BC;
+  text-decoration: none;
+}
+
+footer a {
+    color: black;
+    font-size: medium;
+    margin-top: -50px;
+    margin-left: 330px;
+    padding-top: 0px;
+    padding-bottom: 35px;
+}
+
+.contato {
+    color: black;
+    font-size: large;
+    margin-left: 50px;
+
+}
+
+footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.bot a{
+    margin-left: 50px;
+}
